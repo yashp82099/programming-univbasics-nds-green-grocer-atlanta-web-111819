@@ -4,6 +4,7 @@ def find_item_by_name_in_collection(name, collection)
   # Consult README for inputs and outputs
   x = 0
   out = ''
+  y = false
   while y == true do 
     if collection[x][:item] == name do 
       y = true
